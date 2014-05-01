@@ -1,5 +1,59 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="perm_hips_action">
+        <item>Дозволити</item>
+        <item>З запитом</item>
+        <item>Заборонити</item>
+    </string-array>
+    <string-array name="power_mode_entries">
+        <item>Потужний</item>
+        <item>Збалансований</item>
+        <item>Енергозберігаючий</item>
+    </string-array>
+    <string-array name="power_dialog_auto_clean_memory_items">
+        <item>Через 1 хвилину</item>
+        <item>Через 5 хвилин</item>
+        <item>Через 10 хвилин</item>
+        <item>Ніколи</item>
+    </string-array>
+    <string-array name="power_dialog_sleep_items">
+        <item>15 секунд</item>
+        <item>30 секунд</item>
+        <item>1 хвилина</item>
+        <item>2 хвилини</item>
+        <item>5 хвилин</item>
+        <item>10 хвилин</item>
+        <item>Ніколи</item>
+    </string-array>
+    <string-array name="power_dialog_cpu_state_items">
+        <item>Потужність</item>
+        <item>Баланс</item>
+        <item>Енергозбереження</item>
+    </string-array>
+    <string-array name="power_dialog_vibration_items">
+        <item>Ніколи</item>
+        <item>В режимі \"Без звуку\"</item>
+        <item>Завжди</item>
+    </string-array>
+    <string-array name="power_dialog_vibration_items_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="score_descriptions">
+        <item>Чорний список вимкнено</item>
+        <item>Керування дозволами вимкнено</item>
+        <item>Дуже багато сміття</item>
+        <item>Час очікування сканування вірусів сплив</item>
+        <item>Дуже багато фонових процесів</item>
+    </string-array>
+    <string-array name="score_suggests">
+        <item>Увімкнути чорний список</item>
+        <item>Включіть додаток для керування дозволами</item>
+        <item>Звільніть сміття</item>
+        <item>Оновіть вірусну базу</item>
+        <item>Контролюйте кількість фонових процесів</item>
+    </string-array>
     <string-array name="timezone_filters">
         <item>Америка</item>
         <item>Європа</item>
@@ -52,12 +106,6 @@
         <item>Швидко</item>
         <item>Дуже швидко</item>
     </string-array>
-    <string-array name="change_security_lock_picker">
-		<item>Фейсконтроль</item>
-		<item>Графічний ключ</item>
-	    <item>PIN</item>
- +      <item>Пароль</item>
-    </string-array>
     <string-array name="tts_pitch_entries">
         <item>Дуже низький</item>
         <item>Низький</item>
@@ -68,35 +116,49 @@
     <string-array name="wifi_status">
         <item></item>
         <item>Пошук…</item>
-        <item>Під\'єднання…</item>
+        <item>"Під'єднання…"</item>
         <item>Аутентифікація…</item>
         <item>Отримання IP-адреси…</item>
-        <item>Пiд\'єднано</item>
+        <item>"Пiд'єднано"</item>
         <item>Призупиненено</item>
-        <item>Від\'єднано…</item>
+        <item>"Від'єднано…"</item>
         <item>Вимкнено</item>
         <item>Невдало</item>
         <item>Заблоковано</item>
-        <item>Тимчасово уникати поганого з\'єднання</item>
+        <item>"Тимчасово уникати поганого з'єднання"</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
         <item>Пошук…</item>
-        <item>З\'єднання з %1$s…</item>
+        <item>"З'єднання з %1$s…"</item>
         <item>Аутентифікація з %1$s…</item>
         <item>Отримання IP-адреси від %1$s…</item>
-        <item>Під\'єднано до %1$s</item>
+        <item>"Під'єднано до %1$s"</item>
         <item>Призупинено</item>
-        <item>Від\'єднання від %1$s…</item>
+        <item>"Від'єднання від %1$s…"</item>
         <item>Вимкнено</item>
         <item>Невдало</item>
         <item>Заблоковано</item>
-        <item>Тимчасово уникати поганого з\'єднання</item>
+        <item>"Тимчасово уникати поганого з'єднання"</item>
     </string-array>
-    <string-array name="wifi_ap_security">
-        <item>Відкрита</item>
+    <array name="wifi_security">
+        <item>@string/wifi_security_none</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+        <item>WAPI 证书</item>
+    </array>
+    <array name="wifi_ap_security">
+        <item>@string/wifi_security_none</item>
         <item>WPA PSK</item>
         <item>WPA2 PSK</item>
+    </array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
     </string-array>
     <string-array name="wifi_p2p_wps_setup">
         <item>Push-кнопка</item>
@@ -104,7 +166,7 @@
         <item>PIN код цього пристрою</item>
     </string-array>
     <string-array name="wifi_p2p_status">
-        <item>Під\'єднано</item>
+        <item>"Під'єднано"</item>
         <item>Запрошено</item>
         <item>Збій</item>
         <item>Доступно</item>
@@ -142,18 +204,18 @@
         <item>Підрахувати</item>
         <item>Назва додатку</item>
     </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
     <string-array name="wifi_phase2_entries">
         <item>Немає</item>
         <item>PAP</item>
         <item>MSCHAP</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
-    </string-array>
-    <string-array name="wifi_network_setup">
-        <item>Вимк.</item>
-        <item>Push-кнопка</item>
-        <item>PIN код точки доступу</item>
-        <item>PIN код цього пристрою</item>
     </string-array>
     <string-array name="wifi_ip_settings">
         <item>DHCP</item>
@@ -174,20 +236,20 @@
         <item>CHAP</item>
         <item>PAP або CHAP</item>
     </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
     <string-array name="bearer_entries">
         <item>LTE</item>
         <item>eHRPD</item>
         <item>Не вказано</item>
     </string-array>
     <string-array name="app_install_location_entries">
-        <item>Внутрішня пам\'ять пристрою</item>
-        <item>З\'ємна SD картка</item>
+        <item>"Внутрішня пам'ять пристрою"</item>
+        <item>"З'ємна SD картка"</item>
         <item>На розсуд системи</item>
-    </string-array>
-    <string-array name="silent_mode_entries">
-        <item>Вимк.</item>
-        <item>Вібросигнал</item>
-        <item>Увмк.</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Невелика</item>
@@ -231,6 +293,19 @@
         <item>Анімація (масштаб: 5x)</item>
         <item>Анімація (масштаб: 10x)</item>
     </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Нічого</item>
+        <item>720x480 mdpi</item>
+        <item>1280x720 tvdpi</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1280x720 tvdpi і 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Нічого</item>
+        <item>Logcat</item>
+        <item>Systrace (Graphics)</item>
+        <item>Call stack on glGetError</item>
+    </string-array>
     <string-array name="app_process_limit_entries">
         <item>Стандартне обмеження</item>
         <item>Без фонових процесів</item>
@@ -240,60 +315,36 @@
         <item>Не більше 4 процесів</item>
     </string-array>
     <string-array name="vpn_types_long">
-        <item>VPN-з\'єднання по протоколу PPTP</item>
-        <item>VPN-з\'єднання по протоколу L2TP/IPSec з загальними ключами</item>
-        <item>VPN-під\'єднання по протоколу L2TP/IPSec з використанням сертифікатів</item>
-        <item>VPN-під\'єднання IPSec з загальними ключами та аутентифікацією Xauth</item>
-        <item>VPN-під\'єднання IPSec з використанням сертифікатів та аутентифікації Xauth</item>
-        <item>VPN-під\'єднання IPSec з використанням сертифікатів та комбінованої аутентифікації</item>
+        <item>"VPN-з'єднання по протоколу PPTP"</item>
+        <item>"VPN-з'єднання по протоколу L2TP/IPSec з загальними ключами"</item>
+        <item>"VPN-під'єднання по протоколу L2TP/IPSec з використанням сертифікатів"</item>
+        <item>"VPN-під'єднання IPSec з загальними ключами та аутентифікацією Xauth"</item>
+        <item>"VPN-під'єднання IPSec з використанням сертифікатів та аутентифікації Xauth"</item>
+        <item>"VPN-під'єднання IPSec з використанням сертифікатів та комбінованої аутентифікації"</item>
     </string-array>
     <string-array name="vpn_states">
         <item>Вимкнено</item>
         <item>Ініціалізація…</item>
-        <item>Під\'єднання…</item>
-        <item>Під\'єднано</item>
+        <item>"Під'єднання…"</item>
+        <item>"Під'єднано"</item>
         <item>Час очікування сплив</item>
         <item>Збій</item>
     </string-array>
-    <string-array name="user_content_ratings_entries">
-        <item>Вищий розум</item>
-        <item>Людина</item>
-        <item>Неандерталець</item>
-        <item>Шимпанзе</item>
-        <item>Мавпа</item>
-    </string-array>
-    <string-array name="multi_sim_entries">
-        <item>Підписка 1</item>
-        <item>Підписка 2</item>
-    </string-array>
-    <string-array name="multi_sim_summaries">
-        <item>Підписка 1</item>
-        <item>Підписка 2</item>
-    </string-array>
-    <string-array name="multi_sim_entries_voice">
-        <item>Підписка 1</item>
-        <item>Підписка 2</item>
-        <item>Запит</item>
-    </string-array>
-    <string-array name="multi_sim_summaries_voice">
-        <item>Підписка 1</item>
-        <item>Підписка 2</item>
-        <item>Запит користувача</item>
-    </string-array>
-    <string-array name="multi_sim_entries_voice_without_prompt">
-        <item>Підписка 1</item>
-        <item>Підписка 2</item>
+    <string-array name="security_settings_premium_sms_values">
+        <item>询问</item>
+        <item>永不允许</item>
+        <item>始终允许</item>
     </string-array>
     <string-array name="haptic_feedback_level_entries">
         <item>Сильний</item>
         <item>Середній</item>
         <item>Слабкий</item>
     </string-array>
-		<string-array name="media_feedback_level_entries">
-         <item>Сильний</item>
-         <item>Середній</item>
-         <item>Слабкий</item>
-     </string-array>
+    <string-array name="media_feedback_level_entries">
+        <item>Сильний</item>
+        <item>Середній</item>
+        <item>Слабкий</item>
+    </string-array>
     <string-array name="battery_indicator_style_entries">
         <item>Графічний</item>
         <item>Проценти</item>
@@ -326,149 +377,11 @@
         <item>Синій</item>
         <item>Червоний</item>
         <item>Жовтий</item>
-        <item>Зелений</item>
-        <item>Блакитний</item>
-        <item>Білий</item>
-        <item>Фіолетовий</item>
-    </string-array>
-    <string-array name="led_color_entries_for_mione">
-        <item>Синій</item>
-        <item>Червоний</item>
-        <item>Зелений</item>
-        <item>Рожевий</item>
-        <item>Фіолетовий</item>
-        <item>Пурпурний</item>
-        <item>Смарагдовий</item>
-        <item>Блакитний</item>
-        <item>Сапфір</item>
-    </string-array>
-    <string-array name="back_long_press_timeout">
-        <item>0.5 секунд</item>
-        <item>1 секунда</item>
-        <item>1.5 секунд</item>
-        <item>2 секунд</item>
-    </string-array>
-    <string-array name="button_light_timeout_entries">
-        <item>1 секунда</item>
-        <item>2 секунди</item>
-        <item>5 секунд</item>
-        <item>10 секунд</item>
-        <item>20 секунд</item>
-        <item>Завжди</item>
-    </string-array>
-    <string-array name="entries_dolby_control">
-        <item>Немає</item>
-        <item>Музика</item>
-        <item>Кіно</item>
-    </string-array>
-    <string-array name="wfd_status">
-        <item>Пристрій під\'єднано, створення сесії…</item>
-        <item>Сессію створено</item>
-        <item>Сессію обірвано…</item>
-        <item>Сессію не створено</item>
-        <item>Час очікування сплив, повтор…</item>
-        <item>Пристрій під\'єднано</item>
-    </string-array>
-    <string-array name="power_mode_entries">
-        <item>Потужний</item>
-        <item>Збалансований</item>
-        <item>Енергозберігаючий</item>
-    </string-array>
-    <string-array name="power_dialog_auto_clean_memory_items">
-        <item>Через 1 хвилину</item>
-        <item>Через 5 хвилин</item>
-        <item>Через 10 хвилин</item>
-        <item>Ніколи</item>
-    </string-array>
-    <string-array name="power_dialog_sleep_items">
-        <item>15 секунд</item>
-        <item>30 секунд</item>
-        <item>1 хвилина</item>
-        <item>2 хвилини</item>
-        <item>5 хвилин</item>
-        <item>10 хвилин</item>
-        <item>Ніколи</item>
-    </string-array>
-    <string-array name="power_dialog_cpu_state_items">
-        <item>Потужність</item>
-        <item>Баланс</item>
-        <item>Енергозбереження</item>
-    </string-array>
-    <string-array name="power_dialog_vibration_items">
-        <item>Ніколи</item>
-        <item>В режимі \"Без звуку\"</item>
-        <item>Завжди</item>
-    </string-array>
-    <string-array name="score_descriptions">
-        <item>Чорний список вимкнено</item>
-        <item>Керування дозволами вимкнено</item>
-        <item>Дуже багато сміття</item>
-        <item>Час очікування сканування вірусів сплив</item>
-        <item>Дуже багато фонових процесів</item>
-    </string-array>
-    <string-array name="score_suggests">
-        <item>Увімкнути чорний список</item>
-        <item>Включіть додаток для керування дозволами</item>
-        <item>Звільніть сміття</item>
-        <item>Оновіть вірусну базу</item>
-        <item>Контролюйте кількість фонових процесів</item>
-    </string-array>
-    <string-array name="msd_pc_system">
-        <item>Windows XP та ранні версії</item>
-        <item>Windows Vista та новіші версії</item>
-        <item>Mac OS</item>
-        <item>Linux</item>
-    </string-array>
-    <string-array name="msd_pc_system_install_start_summary">
-        <item>Для Windows XP та ранніх версій,\nдрайвер слід встановити вручну</item>
-        <item>Для Windows Vista або новішій версії,\nмузичний програвач з\'явиться на вашому комп\'ютері автоматично</item>
-        <item>Для Mac OS X,\nдрайвер слід встановити вручну</item>
-        <item></item>
-    </string-array>
-    <string-array name="msd_pc_system_install_step_1_summary">
-        <item>(Будь ласка проігноруйте спливаючі повідомлення встановлювача)\nПристрій збереження Xiaomi з\'явиться на вашому комп\'ютері\nВідкрийте його та виберіть для встановлення Setup.exe</item>
-        <item></item>
-        <item>Пристрій збереження Xiaomi з\'явиться на вашому комп\'ютері.\nВідкрийте та виберіть для встановлення AndroidFileTransfer.dmg </item>
-        <item></item>
-    </string-array>
-    <string-array name="msd_pc_system_install_step_2_summary">
-        <item>2) Пам\'ять телефону автоматично з\'явиться на вашому комп\'ютері. Тепер ви можете переносити файли</item>
-        <item></item>
-        <item>Комп\'ютер автоматично відкриє та прочитає дані телефону. Тепер ви можете пересувати файли</item>
-        <item></item>
-    </string-array>
-    <string-array name="msd_pc_system_install_finish_summary">
-        <item>Якщо ви встановите цей драйвер пам\'ять телефону з\'явиться на комп\'ютері</item>
-        <item>В Windows Vista або новішій версії, музичний програвач з\'явиться на вашому комп\'ютері автоматично</item>
-        <item>Якщо ви встановіть цей драйвер комп\'ютер автоматично відкриє та прочитає пам\'ять телефону</item>
-        <item></item>
-    </string-array>
-    <string-array name="msd_install_status">
-        <item>Встановлення драйверу</item>
-        <item>Драйвер вже встановлено</item>
-    </string-array>
-    <string-array name="screen_color_title">
-        <item>Тепла</item>
-        <item>Натуральна</item>
-        <item>Холодна</item>
-    </string-array>
-    <string-array name="screen_saturation_title">
-        <item>Яскравий</item>
-        <item>Стандарт</item>
-        </string-array>
-    <string-array name="perm_hips_action">
-        <item>Дозволити</item>
-        <item>З запитом</item>
-        <item>Заборонити</item>
-    </string-array>
-    <string-array name="startup_hips_action">
-        <item>Дозволити</item>
-        <item>Заборонити</item>
     </string-array>
     <string-array name="screen_key_long_press_action">
         <item>Нічого</item>
-        <item>Виконати очистку пам\'яті</item>
-		<item>Китайський голосовий помічник</item>
+        <item>"Виконати очистку пам'яті"</item>
+        <item>Китайський голосовий помічник</item>
         <item>Виконати Google Now</item>
         <item>Закрити поточний додаток</item>
     </string-array>
@@ -478,20 +391,103 @@
         <item>1.5 секунд</item>
         <item>2 секунди</item>
     </string-array>
+    <string-array name="button_light_timeout_entries">
+        <item>1 секунда</item>
+        <item>2 секунди</item>
+        <item>5 секунд</item>
+        <item>10 секунд</item>
+        <item>20 секунд</item>
+        <item>Завжди</item>
+    </string-array>
+    <string-array name="wfd_status">
+        <item>"Пристрій під'єднано, створення сесії…"</item>
+        <item>Сессію створено</item>
+        <item>Сессію обірвано…</item>
+        <item>Сессію не створено</item>
+        <item>Час очікування сплив, повтор…</item>
+        <item>"Пристрій під'єднано"</item>
+    </string-array>
+    <string-array name="msd_pc_system">
+        <item>Windows XP та ранні версії</item>
+        <item>Windows Vista та новіші версії</item>
+        <item>Mac OS</item>
+        <item>Linux</item>
+    </string-array>
+    <string-array name="msd_pc_system_install_start_summary">
+        <item>"Для Windows XP та ранніх версій,
+драйвер слід встановити вручну"</item>
+        <item>"Для Windows Vista або новішій версії,
+музичний програвач з'явиться на вашому комп'ютері автоматично"</item>
+        <item>"Для Mac OS X,
+драйвер слід встановити вручну"</item>
+        <item></item>
+    </string-array>
+    <string-array name="msd_pc_system_install_step_1_summary">
+        <item>"(Будь ласка проігноруйте спливаючі повідомлення встановлювача)
+Пристрій збереження Xiaomi з'явиться на вашому комп'ютері
+Відкрийте його та виберіть для встановлення Setup.exe"</item>
+        <item></item>
+        <item>"Пристрій збереження Xiaomi з'явиться на вашому комп'ютері.
+Відкрийте та виберіть для встановлення AndroidFileTransfer.dmg"</item>
+        <item></item>
+    </string-array>
+    <string-array name="msd_pc_system_install_step_2_summary">
+        <item>"2) Пам'ять телефону автоматично з'явиться на вашому комп'ютері. Тепер ви можете переносити файли"</item>
+        <item></item>
+        <item>"Комп'ютер автоматично відкриє та прочитає дані телефону. Тепер ви можете пересувати файли"</item>
+        <item></item>
+    </string-array>
+    <string-array name="msd_pc_system_install_finish_summary">
+        <item>"Якщо ви встановите цей драйвер пам'ять телефону з'явиться на комп'ютері"</item>
+        <item>"В Windows Vista або новішій версії, музичний програвач з'явиться на вашому комп'ютері автоматично"</item>
+        <item>"Якщо ви встановіть цей драйвер комп'ютер автоматично відкриє та прочитає пам'ять телефону"</item>
+        <item></item>
+    </string-array>
+    <string-array name="screen_color_title">
+        <item>Тепла</item>
+        <item>Натуральна</item>
+        <item>Холодна</item>
+    </string-array>
+    <string-array name="screen_saturation_title">
+        <item>Яскравий</item>
+        <item>Стандарт</item>
+    </string-array>
+    <string-array name="startup_hips_action">
+        <item>Дозволити</item>
+        <item>Заборонити</item>
+    </string-array>
     <string-array name="phone_call_noise_suppression_title">
         <item>Один мікрофон</item>
         <item>Подвійний мікрофон</item>
     </string-array>
-	<string-array name="slideshow_time_entries">
+    <string-array name="change_security_lock_picker">
+        <item>Фейсконтроль</item>
+        <item>Графічний ключ</item>
+        <item>PIN</item>
+        <item>Пароль</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>"Автопід'єднання"</item>
+        <item>"Під'єднання вручну"</item>
+        <item>Завжди запитувати</item>
+    </string-array>
+    <string-array name="slideshow_time_entries">
         <item>1 хвилина</item>
-		<item>3 хвилини</item>
-		<item>5 хвилин</item>
+        <item>3 хвилини</item>
+        <item>5 хвилин</item>
         <item>15 хвилин</item>
         <item>30 хвилин</item>
-        <item>1 час</item>
-        <item>Нескінченно</item>
-	</string-array>
-<!-- Red Rice -->
+    </string-array>
+    <string-array name="preferred_app_entries">
+        <item>Лаунчер</item>
+        <item>Телефон</item>
+        <item>Повідомлення</item>
+        <item>Браузер</item>
+        <item>Камера</item>
+        <item>Галерея</item>
+        <item>Музика</item>
+        <item>Пошта</item>
+    </string-array>
     <string-array name="gemini_sim_info_number_display_format_entries">
         <item>Перші 4 цифри</item>
         <item>Останні 4 цифри</item>
@@ -507,15 +503,33 @@
         <item>Тільки WCDMA</item>
         <item>Тільки GSM</item>
     </string-array>
-    <string-array name="wifi_connect_type_entries">
-        <item>Автопід\'єднання</item>
-        <item>Під\'єднання вручну</item>
-        <item>Завжди запитувати</item>
-    </string-array>
-    <string-array name="wifi_ap_channel_width">
-        <item>20 МГц</item>
-        <item>Авто 20/40 МГц</item>
-    </string-array>
+    <array name="wifi_security_wfa">
+        <item>@string/wifi_security_none</item>
+        <item>WEP</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+        <item>WAPI 证书</item>
+    </array>
+    <array name="wpa_security">
+        <item>@string/wifi_security_none</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </array>
+    <array name="wpa_security_wfa">
+        <item>@string/wifi_security_none</item>
+        <item>WEP</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </array>
+    <array name="wapi_security">
+        <item>@string/wifi_security_none</item>
+        <item>WAPI PSK</item>
+        <item>WAPI 证书</item>
+    </array>
     <string-array name="network_use_entry">
         <item>Тільки дім</item>
         <item>Дім + роумінг</item>
@@ -525,10 +539,14 @@
         <item>GPS - умовний час</item>
         <item>Вимк</item>
     </string-array>
-    <string-array name="hdmi_video_mode_entries">
-        <item>Повний екран</item>
-        <item>Підходяща орієнтація</item>
-        <item>Оригінальний розмір</item>
+    <string-array name="tvout_system_list">
+        <item>PAL</item>
+        <item>NTSC</item>
+    </string-array>
+    <string-array name="hdmi_video_resolution_entries">
+        <item>自动</item>
+        <item>720P</item>
+        <item>480P</item>
     </string-array>
     <string-array name="sim_slot">
         <item>(не вказано)</item>
@@ -559,114 +577,127 @@
         <item>7 користувачів</item>
         <item>8 користувачів</item>
     </string-array>
-	<string-array name="preferred_app_entries">
-        <item>Лаунчер</item>
-        <item>Телефон</item>
-        <item>Повідомлення</item>
-        <item>Браузер</item>
-        <item>Камера</item>
-        <item>Галерея</item>
-        <item>Музика</item>
-        <item>Пошта</item>
+    <string-array name="wifi_network_setup">
+        <item>Вимк.</item>
+        <item>Push-кнопка</item>
+        <item>PIN код точки доступу</item>
+        <item>PIN код цього пристрою</item>
     </string-array>
-	<string-array name="app_ops_categories">
-         <item> Місце розташування</item>
-         <item>Особистість</item>
-         <item>Обмін повідомленнями</item>
-         <item>Обладнання</item>
-     </string-array>
-     <string-array name="app_ops_summaries">
-         <item>неточне визначення місця розташування</item>
-         <item>точне визначення місця розташування</item>
-         <item>GPS</item>
-         <item>вібрація</item>
-         <item>читання контактів</item>
-         <item>зміна контактів</item>
-         <item>читання журналу викликів</item>
-         <item>зміна журналу викликів</item>
-         <item>читання календаря</item>
-         <item>зміна календаря</item>
-         <item>сканування wi-fi</item>
-         <item>повідомлення</item>
-         <item>пошук мережі</item>
-         <item>виклик</item>
-         <item>читання повідомлень</item>
-         <item>зміна повідомлень</item>
-         <item>одержання повідомлень</item>
-         <item>одержання екстрених повідомлень</item>
-         <item>одержання MMS</item>
-         <item>одержання WAP push</item>
-         <item>відправлення повідомлень</item>
-         <item>читання ICC SMS</item>
-         <item>зміна ICC SMS</item>
-         <item>зміна настроювань</item>
-         <item>малюнок зверху</item>
-         <item>доступ до повідомлень</item>
-         <item>камера</item>
-         <item>запис аудіо</item>
-         <item>відтворення аудіо</item>
-         <item>читання буфера обміну</item>
-         <item>зміна буфера обміну</item>
-     </string-array>
-     <string-array name="app_ops_labels">
-         <item> Місце розташування</item>
-         <item> Місце розташування</item>
-         <item> Місце розташування</item>
-         <item>Вібрація</item>
-         <item>Читання контактів</item>
-         <item>Зміна контактів</item>
-         <item>Читання журналу викликів</item>
-         <item>Зміна журналу викликів</item>
-         <item>Читання календаря</item>
-         <item>Зміна календаря</item>
-         <item> Місце розташування</item>
-         <item>Повідомлення</item>
-         <item> Місце розташування</item>
-         <item>Виклик</item>
-         <item>Одержання SMS/MMS</item>
-         <item>Відправлення SMS/MMS</item>
-         <item>Одержання SMS/MMS</item>
-         <item>Одержання SMS/MMS</item>
-         <item>Одержання SMS/MMS</item>
-         <item>Одержання SMS/MMS</item>
-         <item>Відправлення SMS/MMS</item>
-         <item>Одержання SMS/MMS</item>
-         <item>Відправлення SMS/MMS</item>
-         <item>Зміна настроювань</item>
-         <item>Малюнок зверху</item>
-         <item>Повідомлення</item>
-         <item>Камера</item>
-         <item>Запис аудіо</item>
-         <item>Відтворення аудіо</item>
-         <item>Читання буфера</item>
-         <item>Зміна буфера</item>
-     </string-array>
-	    <string-array name="enable_opengl_traces_entries">
-         <item>Нічого</item>
-         <item>Logcat</item>
-         <item>Systrace (Graphics)</item>
-         <item>Call stack on glGetError</item>
-     </string-array>
-     <string-array name="overlay_display_devices_entries">
-         <item>Нічого</item>
-         <item>720x480 mdpi</item>
-         <item>1280x720 tvdpi</item>
-         <item>1920x1080 xhdpi</item>
-         <item>1280x720 tvdpi і 1920x1080 xhdpi</item>
-     </string-array>
-	 	<string-array name="miracast_policies">
-         <item>Невелика затримка</item>
-         <item> За замовчуванням</item>
-         <item>Краща якість</item>
-     </string-array>
- 	<string-array name="show_non_rect_clip_entries">
-         <item>Відключене</item>
-         <item>Подсвічувати  фон синім кольором</item>
-         <item>Протестовані команди відображаються червоним кольором</item>
-     </string-array>
-	 	<string-array name="network_speed_slow_summary" >
- 		<item>Повільна швидкість через великі навантаження</item>
-    	<item>Повільна швидкість через слабкий сигнал</item>
- 		<item>Пересування…</item>
-	</string-array>
+    <string-array name="silent_mode_entries">
+        <item>Вимк.</item>
+        <item>Вібросигнал</item>
+        <item>Увмк.</item>
+    </string-array>
+    <string-array name="epo_update_period_title">
+        <item>10分钟</item>
+        <item>1小时</item>
+        <item>6小时</item>
+        <item>1天</item>
+        <item>3天</item>
+        <item>7天</item>
+        <item>14天</item>
+        <item>30天</item>
+    </string-array>
+    <string-array name="epo_update_period_value">
+        <item>10</item>
+        <item>60</item>
+        <item>360</item>
+        <item>1440</item>
+        <item>4320</item>
+        <item>10080</item>
+        <item>20160</item>
+        <item>43200</item>
+    </string-array>
+    <string-array name="agps_eng_si_mode_entries">
+        <item>SI-MA</item>
+        <item>SI-MB</item>
+        <item>STANDALONE</item>
+    </string-array>
+    <string-array name="agps_eng_si_mode_entryvalues">
+        <item>MA</item>
+        <item>MB</item>
+        <item>STANDALONE</item>
+    </string-array>
+    <string-array name="agps_eng_set_id_list_entry">
+        <item>IMSI</item>
+        <item>IPV4</item>
+    </string-array>
+    <string-array name="agps_eng_set_id_list_entryvalues">
+        <item>IMSI</item>
+        <item>ipv4</item>
+    </string-array>
+    <string-array name="molr_position_type_entrys">
+        <item>仅UP</item>
+        <item>仅CP</item>
+    </string-array>
+    <string-array name="molr_position_type_entryvalues">
+        <item>仅UP</item>
+        <item>仅CP</item>
+    </string-array>
+    <string-array name="supl_capability_entry">
+        <item>RRLP</item>
+        <item>RRC</item>
+        <item>RRLP+RRC</item>
+    </string-array>
+    <string-array name="supl_capability_entryvalues">
+        <item>RRLP</item>
+        <item>RRC</item>
+        <item>RRLP+RRC</item>
+    </string-array>
+    <string-array name="agps_qop_acc_type_entries">
+        <item>K-value</item>
+        <item>Meter</item>
+    </string-array>
+    <string-array name="molor_type">
+        <item>位置</item>
+        <item>辅助数据</item>
+    </string-array>
+    <string-array name="sim_prefer">
+        <item>优先使用 SIM1</item>
+        <item>优先使用 SIM2</item>
+    </string-array>
+    <string-array name="networklocation_bindservice_entries">
+        <item>Google</item>
+        <item>MediaTek</item>
+    </string-array>
+    <string-array name="networklocation_bindservice_entriesValues">
+        <item>com.google.android.location.NetworkLocationProvider</item>
+        <item>com.mediatek.android.location.NetworkLocationProvider</item>
+    </string-array>
+    <string-array name="geocoder_bindservice_entries">
+        <item>Google</item>
+        <item>MediaTek</item>
+    </string-array>
+    <string-array name="geocoder_bindservice_entriesValues">
+        <item>com.google.android.location.GeocodeProvider</item>
+        <item>com.mediatek.android.location.PrivateInnerGeocodeProvider</item>
+    </string-array>
+    <string-array name="networklocation_reportfrequency_entries">
+        <item>10 seconds</item>
+        <item>20 seconds</item>
+        <item>30 seconds</item>
+        <item>60 seconds</item>
+    </string-array>
+    <string-array name="notify_duration_list_entries">
+        <item>0 s</item>
+        <item>1 s</item>
+        <item>2 s</item>
+        <item>3 s</item>
+        <item>4 s</item>
+        <item>5 s</item>
+        <item>6 s</item>
+        <item>7 s</item>
+        <item>8 s</item>
+    </string-array>
+    <string-array name="verify_duration_list_entries">
+        <item>0 s</item>
+        <item>1 s</item>
+        <item>2 s</item>
+        <item>3 s</item>
+        <item>4 s</item>
+        <item>5 s</item>
+        <item>6 s</item>
+        <item>7 s</item>
+        <item>8 s</item>
+    </string-array>
 </resources>

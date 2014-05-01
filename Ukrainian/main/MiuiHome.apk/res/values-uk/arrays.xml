@@ -47,4 +47,10 @@
         <item>Грязь</item>
         <item>Смог</item>
     </string-array>
+    <string-array name="editing_mode_entries">
+        <item>Робочий стіл консолідації</item>
+        <item>Додавання пристосувань</item>
+        <item>Змінення шпалер</item>
+        <item>Увімкнути або вимкнути екран</item>
+    </string-array>
 </resources>

@@ -332,13 +332,13 @@
 
 Увімкнути дану функцію?"</string>
     <string name="manual_select_title">Вибрати вручну</string>
-    <string name="manual_select_dialog_msg">Мобільний телефон не буде автоматично обирати оператора в режимі ручного вибору. Іноді необхідно буде заново вибрати, або повернутися в автоматичний режим вибору, якщо пристрій загубить мережу обраного оператора. Ми рекомендуємо вам використовувати "Вибрати автоматично". Вибрати мережу вручну?</string>
-    <string name="no_service_msg_gemini">"Немає жодного обслуговування від обраного оператора "%s" SIM карти.
-Ми рекомендуємо вам використовувати "Вибрати автоматично", або ви зможете вручну вибрати іншого оператора."</string>
+    <string name="manual_select_dialog_msg">Мобільний телефон не буде автоматично обирати оператора в режимі ручного вибору. Іноді необхідно буде заново вибрати, або повернутися в автоматичний режим вибору, якщо пристрій загубить мережу обраного оператора. Ми рекомендуємо вам використовувати Вибрати автоматично. Вибрати мережу вручну?</string>
+    <string name="no_service_msg_gemini">"Немає жодного обслуговування від обраного оператора %s SIM карти.
+Ми рекомендуємо вам використовувати Вибрати автоматично, або ви зможете вручну вибрати іншого оператора."</string>
     <string name="no_service_msg">"Немає жодного обслуговування від вибраного оператора.
-Ми рекомендуємо вам використовувати "Вибрати автоматично", або ви можете вручну вибрати іншого оператора."</string>
+Ми рекомендуємо вам використовувати Вибрати автоматично, або ви можете вручну вибрати іншого оператора."</string>
     <string name="show_always_title">Не попереджати мене знову</string>
-    <string name="no_service_msg_title_gemini">Немає мережі для "%s"</string>
+    <string name="no_service_msg_title_gemini">Немає мережі для %s</string>
     <string name="no_service_msg_title">Немає мережі</string>
     <string name="gemini_data_connection">Передача даних</string>
     <string name="plmn_list_setting_title">Бажані мережі</string>
@@ -369,7 +369,7 @@
     <string name="gemini_3g_disable_warning_case1">3G недоступний для обраній SIM карти. З-за цього завантаження даних буде повільною. Увімкнути 3G мережа для цієї SIM карти можна через Налаштування > Бездротові мережі > Мобільні мережі. Вибрати цю SIM карту?</string>
     <string name="gemini_3g_disable_warning_case2">"Необхідно увімкнути передачу даних в роумінгу для цієї SIM карти, що можуть призвести значні витрати на послуги зв'язку! Окрім того 3G недоступний для обраній SIM карти. З-за цього завантаження даних буде повільною. Увімкнути 3G мережа для цієї SIM карти можна через Налаштування > Бездротові мережі > Мобільні мережі. Увімкнути передачу даних в роумінгу та вибрати цю SIM карту?"</string>
     <string name="disable_data_connection_msg">"Пошук доступних мереж вимкне під'єднання передачі даних, що знаходяться в використанні. Ви хочете продовжити?"</string>
-    <string name="voice_command_notification_ticker" formatted="false">Ви можете сказати "%s" або "%s" для відповіді або скасування вхідного виклику</string>
+    <string name="voice_command_notification_ticker" formatted="false">Ви можете сказати %s або %s для відповіді або скасування вхідного виклику</string>
     <string name="voice_command_notification_title">Голосове керування</string>
     <string name="voice_command_notification_message">Голосове керування ввімкнено для телефону</string>
     <string name="reset">Скинути</string>
@@ -467,7 +467,7 @@
     <string name="requesting_unlock">Запит розблокування мережі…</string>
     <string name="unlock_failed">Запит на розблокування мережі не виконано.</string>
     <string name="unlock_success">Розблокування мережі вдало завершена.</string>
-    <string name="imei">Мобільний зв\'язок Міжнародний ID</string>
+    <string name="imei">"Мобільний зв'язок Міжнародний ID"</string>
     <string name="meid">MEID</string>
     <string name="labelGSMMore">Налаштування викликів GSM</string>
     <string name="labelCDMAMore">Налаштування викликів CDMA</string>
@@ -694,7 +694,7 @@
     <string name="simContacts_emptyLoading">Зчитування з SIM карти…</string>
     <string name="simContacts_empty">Немає контактів на SIM картці</string>
     <string name="simContacts_title">Керування контактами SIM</string>
-    <string name="simContacts_airplaneMode">Відключить режим "В літаку" для імпорту контактів з SІM карти.</string>
+    <string name="simContacts_airplaneMode">Відключить режим В літаку для імпорту контактів з SІM карти.</string>
     <string name="enable_pin">Увімкнути/вимкнути запит PIN SIM карти</string>
     <string name="change_pin">Змінити PIN SIM карти</string>
     <string name="enter_pin_text">PIN SIM карти:</string>
@@ -755,7 +755,7 @@
     <string name="notification_action_end_call">Повісити трубку</string>
     <string name="notification_missedCall_call_back">Перетелефонувати</string>
     <string name="notification_missedCall_message">Повідомлення</string>
-    <string name="incall_error_power_off">"Перед викликом від'єднайте режим "В літаку"."</string>
+    <string name="incall_error_power_off">"Перед викликом від'єднайте режим В літаку."</string>
     <string name="incall_error_emergency_only">Немає реєстрації в мережі.</string>
     <string name="incall_error_out_of_service">Мобільна мережа недоступна.</string>
     <string name="incall_error_no_phone_number_supplied">Виклик не відбувається, дійсний номер телефону не вказано.</string>
@@ -797,7 +797,7 @@
     <string name="ota_title_activate">Активувати телефон</string>
     <string name="ota_touch_activate">"Необхідно спеціальний виклик для активації служби телефону. 
 
-Після натискання кнопки "Активувати" прослухайте інструкції з активації телефону."</string>
+Після натискання кнопки Активувати прослухайте інструкції з активації телефону."</string>
     <string name="ota_skip_activation_dialog_title">Пропустити активацію?</string>
     <string name="ota_skip_activation_dialog_message">"Якщо ви пропустите активацію, ви не зможете здійснювати виклики та під'єднуватися до мобільних мереж передачі даних (хоча ви зможете під'єднуватися до мереж Wi-Fi). Поки ви не активуєте свій телефон, запит активації буде зображуватися при кожному його ввімкненні."</string>
     <string name="ota_skip_activation_dialog_skip_label">Пропустить</string>
@@ -870,7 +870,7 @@
     <string name="registration_status_not_receiving">Виклики не приймаються</string>
     <string name="registration_status_no_data">"Реєстрацію облікового запису перервано через відсутність під'єднання до Інтернету"</string>
     <string name="registration_status_no_wifi_data" />
-    <string name="registration_status_not_running">Не вдалося зареєструвати обліковий запис</string>
+    <string name="registration_status_not_running">帐户注册失败。</string>
     <string name="registration_status_done">Виклики приймаються</string>
     <string name="registration_status_failed_try_later">Не вдалося зареєструвати обліковий запис (%s). Нову спробу буде здійснено пізніше.</string>
     <string name="registration_status_invalid_credentials">"Не вдалося зареєструвати обліковий запис. Хибне ім'я користувача або пароль."</string>
@@ -896,7 +896,7 @@
     <string name="optional_summary">"&lt;Не обов'язково&gt;"</string>
     <string name="advanced_settings_show">▷ Натисніть, щоб показати всі</string>
     <string name="advanced_settings_hide">▽ Натисніть, щоб приховати всі</string>
-    <string name="empty_alert">"%s" не може бути порожньою</string>
+    <string name="empty_alert">%s не може бути порожньою</string>
     <string name="not_a_valid_port">Номер порту повинен бути від 1000 до 65534</string>
     <string name="no_internet_available_title">"Відсутня під'єднання Інтернету"</string>
     <string name="no_wifi_available_title">"Відсутня під'єднання Wi-Fi"</string>
@@ -914,7 +914,7 @@
     <string name="respond_via_sms_setting_title">Швидкі відповіді</string>
     <string name="respond_via_sms_setting_title_2">Змінити швидкі відповіді</string>
     <string name="respond_via_sms_setting_summary" />
-    <string name="respond_via_sms_edittext_dialog_title">Швидка відповідь</string>
+    <string name="respond_via_sms_edittext_dialog_title">Швидкі відповіді</string>
     <string name="respond_via_sms_confirmation_format">Повідомлення надіслано %s.</string>
     <string name="description_image_button_one">один</string>
     <string name="description_image_button_two">два</string>
@@ -1035,6 +1035,7 @@
     <string name="call_record_notification_title_miui">Запис завершено</string>
     <string name="call_record_sd_error_miui">Помилка доступу до SD картки</string>
     <string name="call_record_sd_space_low_miui">На SD картці недостатньо місця</string>
+    <string name="call_record_path_name_of_sdcard_miui">SD卡</string>
     <string name="call_settings_category_miui">Виклики</string>
     <string name="call_settings_miui">Налаштування викликів</string>
     <string name="call_title_redialing_with_times_miui">Набрано %d раз</string>
@@ -1074,7 +1075,7 @@
     <string name="connect_disconnect_vibrate_none_miui">Не вібрувати</string>
     <string name="connect_disconnect_vibrate_normal_miui">Нормальна вібрація</string>
     <string name="connect_disconnect_vibrate_summary_miui" />
-    <string name="connect_disconnect_vibrate_title_miui">Вібрація при виклику</string>
+    <string name="connect_disconnect_vibrate_title_miui">对方接通/挂断时振动</string>
     <string name="connect_disconnect_vibrate_weak_miui">Слабка вібрація</string>
     <string name="contacts_icon_label_miui">Контакти</string>
     <string name="count_of_persons_in_conference_miui">Людей в конференції: %d</string>
@@ -1086,7 +1087,7 @@
     <string name="current_areacode_miui">Поточний код країни</string>
     <string name="current_areacode_sum_miui">Код вашої країни, або код країни, в якій ви знаходитесь (якщо ви в роумінгу). Наприклад: 010</string>
     <string name="current_areacode_sum_set_miui">Код вашої країни: %s</string>
-    <string name="custom_location_location_no_item_miui">Натисніть "Додати" для власних атрибутів</string>
+    <string name="custom_location_location_no_item_miui">Натисніть Додати для власних атрибутів</string>
     <string name="custom_location_location_hint_miui">"Ім'я"</string>
     <string name="custom_location_number_hint_miui">Код країни або груповий номер</string>
     <string name="cw_title_miui">Очікування виклику</string>
@@ -1340,6 +1341,6 @@
     <string name="oldman_end_call_button_text">відбій</string>
     <string name="oldman_dialpad_button_text">клавіатура</string>
     <string name="oldman_speaker_button_text" />
+    <string name="update_plmn_setting">Налаштування PLMN</string>
     <string name="preference_category_ringtone">Мелодія</string>
-    <string name="update_plmn_setting">PLMN-набір</string>
 </resources>

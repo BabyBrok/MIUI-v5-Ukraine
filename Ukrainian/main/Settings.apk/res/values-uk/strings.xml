@@ -1155,7 +1155,7 @@
     <string name="show_owner_info_on_lockscreen_label">Показувати відомості про власника на екрані блокування</string>
     <string name="owner_info_settings_title">Відомості про власника</string>
     <string name="owner_info_settings_summary" />
-    <string name="owner_info_settings_edit_text_hint">Введіть текст для показу на екрані блокування</string>
+    <string name="owner_info_settings_edit_text_hint">Введіть текст для відображення на екрані блокування</string>
     <string name="show_user_info_on_lockscreen_label">Показувати інформацію про користувача на екрані блокування</string>
     <string name="user_info_settings_title">Інформація про користувача</string>
     <string name="location_settings_title">Розташування</string>
@@ -1482,7 +1482,7 @@
     <string name="sound_settings">Звук</string>
     <string name="ringtone_title">Мелодія</string>
     <string name="ringtone_summary" />
-    <string name="all_volume_title">Мелодія</string>
+    <string name="all_volume_title">Гучність</string>
     <string name="musicfx_title">Звукові ефекти</string>
     <string name="ring_volume_title">Гучність виклику</string>
     <string name="vibrate_in_silent_title">В режимі "Без звуку"</string>
@@ -1682,7 +1682,7 @@
     <string name="menu_save">Зберегти</string>
     <string name="menu_cancel">Скасувати</string>
     <string name="error_title" />
-    <string name="error_name_empty">Поле «ім\'я» не може бути порожнім.</string>
+    <string name="error_name_empty">Поле «Ім\'я» не може бути порожнім.</string>
     <string name="error_apn_empty">Необхідно вказати APN.</string>
     <string name="error_mcc_not3">Поле MCC повинно містити 3 літери.</string>
     <string name="error_mnc_not23">Поле MNC повинно містити 2 або 3 літери.</string>
@@ -1889,8 +1889,8 @@
     <string name="clear_data_dlg_title">Видалити дані додатки?</string>
     <string name="clear_data_dlg_text">Всі дані цього додатку будуть видалені без можливості відновлення, включаючи всі файли, бази даних, налаштування, облікові записи і т.д.</string>
     <string name="app_not_found_dlg_title" />
-    <string name="clear_data_failed">Не вдалося видалити дані додатки.</string>
     <string name="app_not_found_dlg_text">Не вдалося знайти додатка у списку встановлених.</string>
+    <string name="clear_data_failed">Не вдалося видалити дані додатки.</string>
     <string name="app_factory_reset_dlg_title">Видалити оновлення?</string>
     <string name="app_factory_reset_dlg_text">Всі оновлення для цього додатку будуть видалені.</string>
     <string name="clear_failed_dlg_title">Очистити дані</string>

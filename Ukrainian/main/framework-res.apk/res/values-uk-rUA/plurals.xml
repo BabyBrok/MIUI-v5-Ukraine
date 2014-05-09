@@ -67,18 +67,6 @@
         <item quantity="other">через %d дн.</item>
         <item quantity="one">завтра</item>
     </plurals>
-	<plurals name="duration_seconds">
-        <item quantity="other">%d сек.</item>
-        <item quantity="one">1 сек.</item>
-    </plurals>
-    <plurals name="duration_minutes">
-        <item quantity="other">%d хв.</item>
-        <item quantity="one">1 хв.</item>
-    </plurals>
-    <plurals name="duration_hours">
-        <item quantity="other">%d год.</item>
-        <item quantity="one">1 год.</item>
-    </plurals>
     <plurals name="wifi_available">
         <item quantity="other">Доступні мережі Wi-Fi</item>
         <item quantity="one">Доступна мережа Wi-Fi</item>
@@ -90,13 +78,5 @@
     <plurals name="matches_found">
         <item quantity="other">%1$d з %2$d</item>
         <item quantity="one">1 збіг</item>
-    </plurals>
-	    <plurals name="pinpuk_attempts">
-        <item quantity="other">You have %d remaining attempts before SIM is locked.</item>
-        <item quantity="one">You have %d remaining attempt before SIM is locked.</item>
-    </plurals>
-    <plurals name="restr_pin_countdown">
-        <item quantity="other">Повторіть через %d сік</item>
-        <item quantity="one">Повторіть через 1 сік</item>
     </plurals>
 </resources>

@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="send_item">
         <item>SMS</item>
         <item>E-mail</item>
+    </string-array>
+    <string-array name="act_weather_main_listview_json_key">
+        <item>wind1</item>
+        <item>Індекс УФ</item>
+        <item>Індекс одягу</item>
+        <item>Індекс комфорту</item>
+        <item>Індекс автомийки</item>
+        <item>Індекс сушіння</item>
+        <item>Індекс ранокових вправ</item>
+        <item>Індекс gодорожі</item>
     </string-array>
     <string-array name="act_weather_main_listview_key">
         <item>Швидкість вітру:</item>
@@ -13,7 +23,7 @@
         <item>Індекс вологості:</item>
         <item>Індекс ранкових вправ:</item>
         <item>Індекс дозвілля:</item>
-     </string-array>
+    </string-array>
     <string-array name="weather_image">
         <item>Ясно</item>
         <item>Хмарно</item>
@@ -116,7 +126,7 @@
         <item>Візьміть парасольку! :)</item>
         <item>Візьміть парасольку!</item>
         <item>На вулиці мрячить, не забудьте взяти парасольку!</item>
-        <item>На вулиці сніг з дощем, не забудьте взяти парасольку!"</item>
+        <item>На вулиці сніг з дощем, не забудьте взяти парасольку!</item>
         <item>На вулиці достатньо сніжно!</item>
         <item>Сьогодні буде сніг, не забудьте одягнути шапку і шарф.</item>
         <item>На вулиці достатньо сніжно, не забудьте одягнути шапку і шарф!</item>
@@ -131,15 +141,15 @@
         <item>Погана якість повітря, залишайтесь вдома.</item>
     </string-array>
     <string-array name="weather_sms_addons">
-        <item>"Погода сьогодні в @: $."</item>
+        <item>Погода сьогодні в @: $.</item>
         <item>Температура: %.</item>
         <item>Не забудьте взяти з собою парасольку!</item>
-        <item></item>
+        <item>Постарайтеся залишатися сухими! :)</item>
         <item>Якщо ви сушете на вулиці білизну, не забудьте забрати її! :)</item>
         <item>За можливістю, не сідайте за кермо.</item>
         <item>Водіть обережно!</item>
         <item>Будьте обережні, на вулиці слизько.</item>
-        <item></item>
+        <item>Не поспішай. Будьте обережнішими.</item>
         <item>Будьте обережны на вулиці.</item>
         <item>Без необхідності не виходбте на вулицю.</item>
         <item>Нанесіть сонецзахисний крем і надягніть сонцезахисні окуляри.</item>
@@ -275,5 +285,13 @@
         <item>Сьогодні погода буде нестабільною.</item>
         <item>34</item>
         <item>Ясне небо, мягкий вітер.</item>
+    </string-array>
+    <string-array name="weather_info_fl">
+        <item></item>
+        <item>Вітряно</item>
+        <item>Бриз</item>
+        <item>Комфортно</item>
+        <item>N/a</item>
+        <item>Недоступний</item>
     </string-array>
 </resources>

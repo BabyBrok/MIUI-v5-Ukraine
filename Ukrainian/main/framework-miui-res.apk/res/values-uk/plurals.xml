@@ -33,7 +33,7 @@
         <item quantity="other">Півгодини тому</item>
     </plurals>
     <plurals name="in_a_hour">
-        <item quantity="other">1小时后</item>
+        <item quantity="other">Після 1 год</item>
     </plurals>
     <plurals name="in_half_hour">
         <item quantity="other">Півгодини тому</item>

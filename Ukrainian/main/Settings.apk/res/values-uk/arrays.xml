@@ -583,11 +583,6 @@
         <item>PIN код точки доступу</item>
         <item>PIN код цього пристрою</item>
     </string-array>
-    <string-array name="silent_mode_entries">
-        <item>Вимк.</item>
-        <item>Вібросигнал</item>
-        <item>Увмк.</item>
-    </string-array>
     <string-array name="epo_update_period_title">
         <item>10分钟</item>
         <item>1小时</item>
@@ -699,5 +694,10 @@
         <item>6 s</item>
         <item>7 s</item>
         <item>8 s</item>
+    </string-array>
+    <string-array name="silent_mode_entries">
+        <item>Вимк.</item>
+        <item>Вібросигнал</item>
+        <item>Увмк.</item>
     </string-array>
 </resources>

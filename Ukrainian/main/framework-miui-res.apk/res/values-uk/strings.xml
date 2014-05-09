@@ -245,7 +245,7 @@
     <string name="country_name_za">П.А.Р.</string>
     <string name="country_name_zm">Замбія</string>
     <string name="country_name_zw">Зімбабве</string>
-    <string name="day_of_month">%d日</string>
+    <string name="day_of_month">%d д</string>
     <string name="delete">Видалити</string>
     <string name="error_forbidden">Знайдено помилки облікового запису: синхронізацію вимкнено.</string>
     <string name="error_not_acceptable">Помилка серверу: синхронізацію вимкнено.</string>

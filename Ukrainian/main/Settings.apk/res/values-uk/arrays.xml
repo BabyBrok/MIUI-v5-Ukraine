@@ -147,7 +147,7 @@
         <item>WPA/WPA2 PSK</item>
         <item>802.1x EAP</item>
         <item>WAPI PSK</item>
-        <item>WAPI 证书</item>
+        <item>Сертифікат WAPI</item>
     </array>
     <array name="wifi_ap_security">
         <item>@string/wifi_security_none</item>
@@ -331,9 +331,9 @@
         <item>Збій</item>
     </string-array>
     <string-array name="security_settings_premium_sms_values">
-        <item>询问</item>
-        <item>永不允许</item>
-        <item>始终允许</item>
+        <item>Запитати</item>
+        <item>Ніколи не дозволяти</item>
+        <item>Завжди дозволяти</item>
     </string-array>
     <string-array name="haptic_feedback_level_entries">
         <item>Сильний</item>
@@ -510,7 +510,7 @@
         <item>WPA2 PSK</item>
         <item>802.1x EAP</item>
         <item>WAPI PSK</item>
-        <item>WAPI 证书</item>
+        <item>Сертифікат WAPI</item>
     </array>
     <array name="wpa_security">
         <item>@string/wifi_security_none</item>
@@ -528,7 +528,7 @@
     <array name="wapi_security">
         <item>@string/wifi_security_none</item>
         <item>WAPI PSK</item>
-        <item>WAPI 证书</item>
+        <item>Сертифікат WAPI</item>
     </array>
     <string-array name="network_use_entry">
         <item>Тільки дім</item>
@@ -544,7 +544,7 @@
         <item>NTSC</item>
     </string-array>
     <string-array name="hdmi_video_resolution_entries">
-        <item>自动</item>
+        <item>Автоматично</item>
         <item>720P</item>
         <item>480P</item>
     </string-array>
@@ -584,14 +584,14 @@
         <item>PIN код цього пристрою</item>
     </string-array>
     <string-array name="epo_update_period_title">
-        <item>10分钟</item>
-        <item>1小时</item>
-        <item>6小时</item>
-        <item>1天</item>
-        <item>3天</item>
-        <item>7天</item>
-        <item>14天</item>
-        <item>30天</item>
+        <item>10 хвилин</item>
+        <item>1 година</item>
+        <item>6 годин</item>
+        <item>1 день</item>
+        <item>3 дні</item>
+        <item>7 днів</item>
+        <item>14 днів</item>
+        <item>30 днів</item>
     </string-array>
     <string-array name="epo_update_period_value">
         <item>10</item>
@@ -622,12 +622,12 @@
         <item>ipv4</item>
     </string-array>
     <string-array name="molr_position_type_entrys">
-        <item>仅UP</item>
-        <item>仅CP</item>
+        <item>Тільки UP</item>
+        <item>Тільки CP</item>
     </string-array>
     <string-array name="molr_position_type_entryvalues">
-        <item>仅UP</item>
-        <item>仅CP</item>
+        <item>Тільки UP</item>
+        <item>Тільки CP</item>
     </string-array>
     <string-array name="supl_capability_entry">
         <item>RRLP</item>
@@ -644,12 +644,12 @@
         <item>Meter</item>
     </string-array>
     <string-array name="molor_type">
-        <item>位置</item>
-        <item>辅助数据</item>
+        <item>Розташування</item>
+        <item>Вторинні дані</item>
     </string-array>
     <string-array name="sim_prefer">
-        <item>优先使用 SIM1</item>
-        <item>优先使用 SIM2</item>
+        <item>Пріоритетна SIM1</item>
+        <item>Пріоритетна SIM2</item>
     </string-array>
     <string-array name="networklocation_bindservice_entries">
         <item>Google</item>

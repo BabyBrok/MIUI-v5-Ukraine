@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="reminder_methods_labels">
         <item>Сповіщення</item>
@@ -17,13 +17,6 @@
         <item>за 25 хвилин</item>
         <item>за 30 хвилин</item>
         <item>за 45 хвилин</item>
-        <item>за 1 година</item>
-        <item>за 2 години</item>
-        <item>за 3 години</item>
-        <item>за 12 годин</item>
-        <item>за 24 години</item>
-        <item>за 2 доби</item>
-        <item>за 1 тиждень</item>
     </string-array>
     <string-array name="preferences_default_reminder_labels">
         <item>Ні</item>
@@ -36,13 +29,6 @@
         <item>за 25 хвилин</item>
         <item>за 30 хвилин</item>
         <item>за 45 хвилин</item>
-        <item>за 1 година</item>
-        <item>за 2 години</item>
-        <item>за 3 години</item>
-        <item>за 12 годин</item>
-        <item>за 24 години</item>
-        <item>за 2 доби</item>
-        <item>за 1 тиждень</item>
     </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Місцевий по замовчанню</item>
@@ -90,7 +76,8 @@
         <item>Амман, Іорданія</item>
         <item>Афіни, Стамбул</item>
         <item>Бейрут, Ліван</item>
-        <item>Каїр,Київ</item>
+        <item>Каїр</item>
+        <item>Київ</item>
         <item>Хельсінкі</item>
         <item>Єрусалим</item>
         <item>Мінськ</item>
@@ -192,5 +179,23 @@
     <string-array name="widget_style_list">
         <item>Прозорий</item>
         <item>Білий</item>
+    </string-array>
+    <string-array name="online_reminder_minutes_labels">
+        <item>До початку діяльності</item>
+        <item>5 хвилин тому</item>
+        <item>10 хвилин тому</item>
+        <item>15 хвилин тому</item>
+        <item>30 хвилин тому</item>
+        <item>1 годин тому</item>
+        <item>1 днів тому</item>
+        <item>2 днів тому</item>
+        <item>1 тиждень тому</item>
+    </string-array>
+    <string-array name="online_reminder_minutes_labels_allday">
+        <item>当天9点</item>
+        <item>提前1天9点</item>
+        <item>提前2天9点</item>
+        <item>提前3天9点</item>
+        <item>提前1周9点</item>
     </string-array>
 </resources>

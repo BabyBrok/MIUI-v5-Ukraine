@@ -54,7 +54,7 @@
     <string name="vt_local_video_display">Показ локального відео</string>
     <string name="vt_sd_null">"SD карта
 недоступна"</string>
-    <string name="vt_sd_not_enough">"Пам'ять SD карти
+    <string name="vt_sd_not_enough">"Пам\'ять SD карти
 переповнена"</string>
     <string name="vt_peer_video_quality_normal">Нормальне</string>
     <string name="vt_peer_video_quality_sharp">Різке</string>
@@ -79,8 +79,8 @@
     <string name="vt_peer_video_rep">Заміна відео телефонуючого</string>
     <string name="vt_peer_video_rep_des">Задати зображення для показу коли відео теелефонуючого є недоступним</string>
     <string name="vt_vocie_answer">Голосова відповідь</string>
-    <string name="vt_wait_voice">"Очікування під'єднання голосового виклику"</string>
-    <string name="vt_voice_connecting">"Під'єднання голосового виклику"</string>
+    <string name="vt_wait_voice">"Очікування під\'єднання голосового виклику"</string>
+    <string name="vt_voice_connecting">"Під\'єднання голосового виклику"</string>
     <string name="vt_auto_dropback">Автодозвін</string>
     <string name="vt_auto_dropback_des">Перетелефонувати, якщо лінію зайнято.</string>
     <string name="vt_cannot_support_setting">Поточна камера не підтримує дані налаштування</string>
@@ -247,7 +247,7 @@
     <string name="cb_menu_add_channel">Додати канал</string>
     <string name="cb_menu_channel_list">Список каналів</string>
     <string name="cb_dialog_title_language_choice">Вибрати мову</string>
-    <string name="cb_channel_dialog_channel_name">"Ім'я каналу (1-10 символів)"</string>
+    <string name="cb_channel_dialog_channel_name">"Ім\'я каналу (1-10 символів)"</string>
     <string name="cb_channel_dialog_channel_number">Номер каналу (0-65534)</string>
     <string name="cb_channel_dialog_channel_state">Увімкнути канал</string>
     <string name="cb_channel_dialog_edit_channel">Змінити канал</string>
@@ -262,7 +262,7 @@
     <string name="fdn_errorcode_unknown_info">Невідома помилка, попробуйте пізніше.</string>
     <string name="fdn_errorcode_number_info">Помилка. Номер каналу дуже великий.</string>
     <string name="fdn_errorcode_name_info">Помилка. Назва каналу дуже довга.</string>
-    <string name="fdn_errorcode_storage_info">"Помилка. Пам'ять заповнено."</string>
+    <string name="fdn_errorcode_storage_info">"Помилка. Пам\'ять заповнено."</string>
     <string name="fdn_errorcode_phb_info">Помилка. Телефонна книга не готова, спробуйте пізніше.</string>
     <string name="fdn_errorcode_pin2_info">Помилка. Хибний PIN2 код.</string>
     <string name="net_or_simcard_busy">Мережа або SIM карту зайнято, спробуйте пізніше.</string>
@@ -349,7 +349,7 @@
     <string name="international_dialing_select_country">Схоже, що ви здійснюєте міжнародний виклик. Будь ласка, оберіть пункт призначення.</string>
     <string name="international_dialing_add_country_code" formatted="false">Схоже, що ви набираєте номер іншої країни: %s. Додати код країни (+%s)?</string>
     <string name="international_dialing_add_country_code_and_area_code">Схоже, що ви набираєте номер іншої країни: %1$s, %2$s. Додати код країни та код міста (+%3$s)?</string>
-    <string name="international_dialing_change_country_prefix">"Схоже, що ви невірно набираєте номер %s. Додати префікс міжнародного виклику '+'?"</string>
+    <string name="international_dialing_change_country_prefix">"Схоже, що ви невірно набираєте номер %s. Додати префікс міжнародного виклику \'+\'?"</string>
     <string name="international_dialing_add_country_code_input_area_code">Схоже, що ви набираєте номер інший країни: %s. Якщо це так, будь ласка, введіть код країни.</string>
     <string name="international_dialing_add_country_code_default_input_area_code" formatted="false">Схоже, що ви набираєте номер інший країни: %s. Якщо ваше розташування не: %s, введіть код країни.</string>
     <string name="international_dialing_need_area_code">Для виклику необхідний код вашого міста.</string>
@@ -365,10 +365,10 @@
     <string name="international_dialing_invalid_number">Некоректний номер. Всі рівно продовжити виклик?</string>
     <string name="international_dialing_add_country_code_and_area_code_without_prefix">Додати код країни та код міста?</string>
     <string name="no_search_result">Немає результатів пошуку</string>
-    <string name="gemini_3g_disable_warning_case0">"Необхідно увімкнути передачу даних в роумінгу для цієї SIM карти, що можуть призвести значні витрати на послуги зв'язку! Увімкнути передачу даних в роумінгу та вибрати цю SIM карту?"</string>
+    <string name="gemini_3g_disable_warning_case0">"Необхідно увімкнути передачу даних в роумінгу для цієї SIM карти, що можуть призвести значні витрати на послуги зв\'язку! Увімкнути передачу даних в роумінгу та вибрати цю SIM карту?"</string>
     <string name="gemini_3g_disable_warning_case1">3G недоступний для обраній SIM карти. З-за цього завантаження даних буде повільною. Увімкнути 3G мережа для цієї SIM карти можна через Налаштування > Бездротові мережі > Мобільні мережі. Вибрати цю SIM карту?</string>
-    <string name="gemini_3g_disable_warning_case2">"Необхідно увімкнути передачу даних в роумінгу для цієї SIM карти, що можуть призвести значні витрати на послуги зв'язку! Окрім того 3G недоступний для обраній SIM карти. З-за цього завантаження даних буде повільною. Увімкнути 3G мережа для цієї SIM карти можна через Налаштування > Бездротові мережі > Мобільні мережі. Увімкнути передачу даних в роумінгу та вибрати цю SIM карту?"</string>
-    <string name="disable_data_connection_msg">"Пошук доступних мереж вимкне під'єднання передачі даних, що знаходяться в використанні. Ви хочете продовжити?"</string>
+    <string name="gemini_3g_disable_warning_case2">"Необхідно увімкнути передачу даних в роумінгу для цієї SIM карти, що можуть призвести значні витрати на послуги зв\'язку! Окрім того 3G недоступний для обраній SIM карти. З-за цього завантаження даних буде повільною. Увімкнути 3G мережа для цієї SIM карти можна через Налаштування > Бездротові мережі > Мобільні мережі. Увімкнути передачу даних в роумінгу та вибрати цю SIM карту?"</string>
+    <string name="disable_data_connection_msg">"Пошук доступних мереж вимкне під\'єднання передачі даних, що знаходяться в використанні. Ви хочете продовжити?"</string>
     <string name="voice_command_notification_ticker" formatted="false">Ви можете сказати %s або %s для відповіді або скасування вхідного виклику</string>
     <string name="voice_command_notification_title">Голосове керування</string>
     <string name="voice_command_notification_message">Голосове керування ввімкнено для телефону</string>
@@ -419,7 +419,7 @@
     <string name="callFailed_timedOut">Немає відповіді, час очікування сплив</string>
     <string name="callFailed_server_unreachable">Сервер недоступний</string>
     <string name="callFailed_number_unreachable">Номер недоступний</string>
-    <string name="callFailed_invalid_credentials">"Хибне ім'я користувача або пароль"</string>
+    <string name="callFailed_invalid_credentials">"Хибне ім\'я користувача або пароль"</string>
     <string name="callFailed_out_of_network">Виклик з мережі</string>
     <string name="callFailed_server_error">Помилка серверу. Повторіть спробу пізніше.</string>
     <string name="callFailed_noSignal">Немає сигналу</string>
@@ -442,7 +442,7 @@
     <string name="ussdRunning">Виконується запит USSD…</string>
     <string name="mmiCancelled">Код MMI скасовано</string>
     <string name="cancel">Скасувати</string>
-    <string name="manageConferenceLabel">"Керування конференц-зв'язком"</string>
+    <string name="manageConferenceLabel">"Керування конференц-зв\'язком"</string>
     <string name="audio_mode_speaker">Динамік</string>
     <string name="audio_mode_earpiece">Динамік гарнітури</string>
     <string name="audio_mode_wired_headset">Дротова гарнітура</string>
@@ -467,7 +467,7 @@
     <string name="requesting_unlock">Запит розблокування мережі…</string>
     <string name="unlock_failed">Запит на розблокування мережі не виконано.</string>
     <string name="unlock_success">Розблокування мережі вдало завершена.</string>
-    <string name="imei">"Мобільний зв'язок Міжнародний ID"</string>
+    <string name="imei">"Мобільний зв\'язок Міжнародний ID"</string>
     <string name="meid">MEID</string>
     <string name="labelGSMMore">Налаштування викликів GSM</string>
     <string name="labelCDMAMore">Налаштування викликів CDMA</string>
@@ -475,7 +475,7 @@
     <string name="settings_label">Налаштування мережі</string>
     <string name="voicemail">Голосова пошта</string>
     <string name="voicemail_abbreviated">ГП:</string>
-    <string name="networks">"Оператори зв'язку"</string>
+    <string name="networks">"Оператори зв\'язку"</string>
     <string name="call_settings">Налаштування викликів</string>
     <string name="additional_gsm_call_settings">Додаткові налаштування</string>
     <string name="sum_gsm_call_settings">Додаткові налаштування тільки для викликів GSM</string>
@@ -520,7 +520,7 @@
     <string name="reverting_settings">Повернення до попередніх настройок…</string>
     <string name="response_error">Неочікуваний відгук мережі.</string>
     <string name="exception_error">Помилка мережі або SIM карти.</string>
-    <string name="fdn_check_failure">"Включено функцію набору фіксованих номерів. В результаті, деякі функції, пов'язані з викликом не працюють."</string>
+    <string name="fdn_check_failure">"Включено функцію набору фіксованих номерів. В результаті, деякі функції, пов\'язані з викликом не працюють."</string>
     <string name="fdn_only_error">Ця операція можлива тільки для номерів фіксованого набору.</string>
     <string name="radio_off_error">Щоб побачити ці налаштування, потрібно увімкнути радіо.</string>
     <string name="close_dialog">Гаразд</string>
@@ -530,9 +530,9 @@
     <string name="vm_save_number">Зберегти номер голосової пошти</string>
     <string name="vm_changed">Номер голосової пошти змінено.</string>
     <string name="vm_change_failed">"Не вдалося змінити номер голосової пошти.
-Якщо проблему не буде вирішено, зв'яжіться з своїм оператором."</string>
+Якщо проблему не буде вирішено, зв\'яжіться з своїм оператором."</string>
     <string name="fw_change_failed">"Не вдалося змінити номер переадресації викликів.
-Якщо проблема не буде вирішено, зв'яжіться з своїм оператором."</string>
+Якщо проблема не буде вирішено, зв\'яжіться з своїм оператором."</string>
     <string name="fw_get_in_vm_failed">"Не вдалося зберегти поточні налаштування переадресації.
 Все одно змінити провайдера?"</string>
     <string name="no_change">Не було змін.</string>
@@ -545,10 +545,10 @@
     <string name="search_networks">Пошук мереж</string>
     <string name="network_query_error">Помилка пошуку мереж.</string>
     <string name="register_on_network">Реєстрація в мережі %s…</string>
-    <string name="not_allowed">"Встановлена SIM карта не може під'єднатися до цієї мережі."</string>
-    <string name="connect_later">"Не вдається під'єднатися до цієї мережі. Повторіть спробу пізніше."</string>
+    <string name="not_allowed">"Встановлена SIM карта не може під\'єднатися до цієї мережі."</string>
+    <string name="connect_later">"Не вдається під\'єднатися до цієї мережі. Повторіть спробу пізніше."</string>
     <string name="registration_done">Реєстрацію в мережі завершена.</string>
-    <string name="sum_carrier_select">"Оберіть оператора зв'язку"</string>
+    <string name="sum_carrier_select">"Оберіть оператора зв\'язку"</string>
     <string name="sum_search_networks">Пошук всіх доступних мереж</string>
     <string name="select_automatically">Вибирати автоматично</string>
     <string name="sum_select_automatically">Автовибір бажаної мережі</string>
@@ -557,10 +557,10 @@
     <string name="preferred_network_mode_summary">Змінити режим роботи мережі</string>
     <string name="preferred_network_mode_dialogtitle">Режим бажаної мережі</string>
     <string name="data_enabled">Передача даних</string>
-    <string name="data_enable_summary">"Дозволити передачу даних по мережі мобільного зв'язку"</string>
+    <string name="data_enable_summary">"Дозволити передачу даних по мережі мобільного зв\'язку"</string>
     <string name="roaming">Інтернет-роумінг</string>
-    <string name="roaming_enable">"Під'єднуватися до служб передачі даних в роумінгу"</string>
-    <string name="roaming_disable">"Під'єднуватися до служб передачі даних в роумінгу"</string>
+    <string name="roaming_enable">"Під\'єднуватися до служб передачі даних в роумінгу"</string>
+    <string name="roaming_disable">"Під\'єднуватися до служб передачі даних в роумінгу"</string>
     <string name="roaming_reenable_message">Передачу даних припинено, тому що телефон знаходиться за межами домашньої мережі, а інтернет-роумінг вимкнено.</string>
     <string name="roaming_warning">Дозволити інтернет-роумінг? Можливі великі витрати за використання роумінгу.</string>
     <string name="gsm_umts_options">Параметри GSM/UMTS</string>
@@ -573,7 +573,7 @@
     <string name="throttle_data_rate_reduced_subtext">"Перевищено межу в %1$s.
 Швидкість передачі даних понижено до %2$d кбіт/с."</string>
     <string name="throttle_rate_subtext">Перевищення межі знижує швидкість передачі даних до %1$d кбіт/с</string>
-    <string name="throttle_help_subtext">"Детальніше про політику передачі даних вашого оператора мобільного зв'язку"</string>
+    <string name="throttle_help_subtext">"Детальніше про політику передачі даних вашого оператора мобільного зв\'язку"</string>
     <string name="cell_broadcast_sms">Широкомовні SMS-служби</string>
     <string name="enable_disable_cell_bc_sms">Широкомовні SMS-служби</string>
     <string name="cell_bc_sms_enable">Широкомовні SMS-служби увімкнені</string>
@@ -676,7 +676,7 @@
     <string name="menu_edit">Змінити контакт</string>
     <string name="menu_delete">Видалити контакт</string>
     <string name="get_pin2">Введіть PIN2</string>
-    <string name="name">"Ім'я"</string>
+    <string name="name">"Ім\'я"</string>
     <string name="number">Номер</string>
     <string name="save">Зберегти</string>
     <string name="add_fdn_contact">Додати номер обмеженого набору</string>
@@ -755,7 +755,7 @@
     <string name="notification_action_end_call">Повісити трубку</string>
     <string name="notification_missedCall_call_back">Перетелефонувати</string>
     <string name="notification_missedCall_message">Повідомлення</string>
-    <string name="incall_error_power_off">"Перед викликом від'єднайте режим В літаку."</string>
+    <string name="incall_error_power_off">"Перед викликом від\'єднайте режим В літаку."</string>
     <string name="incall_error_emergency_only">Немає реєстрації в мережі.</string>
     <string name="incall_error_out_of_service">Мобільна мережа недоступна.</string>
     <string name="incall_error_no_phone_number_supplied">Виклик не відбувається, дійсний номер телефону не вказано.</string>
@@ -767,11 +767,11 @@
     <string name="incall_error_supp_service_transfer">Не вдалося перевести виклик.</string>
     <string name="incall_error_supp_service_conference">Не вдається створити конференц-виклик.</string>
     <string name="incall_error_supp_service_reject">Неможливо скасувати виклик.</string>
-    <string name="incall_error_supp_service_hangup">"Не вдається роз'єднати абонентів."</string>
+    <string name="incall_error_supp_service_hangup">"Не вдається роз\'єднати абонентів."</string>
     <string name="incall_call_type_label_sip">Інтернет-виклик</string>
     <string name="emergency_enable_radio_dialog_title">Терміновий виклик</string>
     <string name="emergency_enable_radio_dialog_message">Увімкнення радіо…</string>
-    <string name="emergency_enable_radio_dialog_retry">"Поза зоною дії мережі, повторне під'єднання…"</string>
+    <string name="emergency_enable_radio_dialog_retry">"Поза зоною дії мережі, повторне під\'єднання…"</string>
     <string name="dial_emergency_error">Виклик не здійснено, %s не є номером термінового виклику!</string>
     <string name="dial_emergency_empty_error">Виклик не здійснено, наберіть номер термінового виклику!</string>
     <string name="dialerKeyboardHintText">Використовуйте клавіатуру для набору номера</string>
@@ -780,7 +780,7 @@
     <string name="onscreenShowDialpadText">Кнопки</string>
     <string name="onscreenMuteText">Вимк. звук</string>
     <string name="onscreenAddCallText">Додати виклик</string>
-    <string name="onscreenMergeCallsText">"Об'єднати виклики"</string>
+    <string name="onscreenMergeCallsText">"Об\'єднати виклики"</string>
     <string name="onscreenSwapCallsText">Переведення виклику</string>
     <string name="onscreenManageCallsText">Керування викликами</string>
     <string name="onscreenManageConferenceText">Керування конференцією</string>
@@ -799,7 +799,7 @@
 
 Після натискання кнопки Активувати прослухайте інструкції з активації телефону."</string>
     <string name="ota_skip_activation_dialog_title">Пропустити активацію?</string>
-    <string name="ota_skip_activation_dialog_message">"Якщо ви пропустите активацію, ви не зможете здійснювати виклики та під'єднуватися до мобільних мереж передачі даних (хоча ви зможете під'єднуватися до мереж Wi-Fi). Поки ви не активуєте свій телефон, запит активації буде зображуватися при кожному його ввімкненні."</string>
+    <string name="ota_skip_activation_dialog_message">"Якщо ви пропустите активацію, ви не зможете здійснювати виклики та під\'єднуватися до мобільних мереж передачі даних (хоча ви зможете під\'єднуватися до мереж Wi-Fi). Поки ви не активуєте свій телефон, запит активації буде зображуватися при кожному його ввімкненні."</string>
     <string name="ota_skip_activation_dialog_skip_label">Пропустить</string>
     <string name="ota_activate">Активувати</string>
     <string name="ota_title_activate_success">Телефон активовано.</string>
@@ -812,7 +812,7 @@
     <string name="ota_unsuccessful">"Телефон не був активований.
 Можливо, Вам слід знайти зону з більш високим рівнем сигналу (біля вікна або на вулиці). 
 
-Повторіть спробу або зв'яжіться з службою підтримки."</string>
+Повторіть спробу або зв\'яжіться з службою підтримки."</string>
     <string name="ota_spc_failure">ПЕРЕВИЩЕННЯ КІЛЬКОСТІ ПОМИЛОК SPC</string>
     <string name="ota_call_end">Назад</string>
     <string name="ota_try_again">Повторити</string>
@@ -821,7 +821,7 @@
     <string name="phone_entered_ecm_text">Телефон переведено в режим термінових зворотніх викликів</string>
     <string name="phone_in_ecm_notification_title">Режим термінових зворотніх викликів</string>
     <string name="phone_in_ecm_call_notification_text">Передачу даних вимкнено</string>
-    <string name="alert_dialog_in_ecm_call">"Обрана дія неможлива в режимі термінового зв'язку"</string>
+    <string name="alert_dialog_in_ecm_call">"Обрана дія неможлива в режимі термінового зв\'язку"</string>
     <string name="progress_dialog_exiting_ecm">Вихід з режиму термінових зворотніх викликів</string>
     <string name="alert_dialog_yes">Так</string>
     <string name="alert_dialog_no">Ні</string>
@@ -839,7 +839,7 @@
     <string name="sip_receive_calls">Приймати вхідні</string>
     <string name="sip_receive_calls_summary">Підвищує витрати заряду батареї</string>
     <string name="sip_call_options_title">Використовувати інтернет</string>
-    <string name="sip_call_options_wifi_only_title">"Використовувати інтернет-з'єднання (Тільки Wi-Fi)"</string>
+    <string name="sip_call_options_wifi_only_title">"Використовувати інтернет-з\'єднання (Тільки Wi-Fi)"</string>
     <string name="sip_call_options_entry_1">Для всіх викликів при можливості передачі даних</string>
     <string name="sip_call_options_entry_2">Тільки для інтернет-викликів</string>
     <string name="sip_call_options_entry_3">Запитувати для кожного виклику</string>
@@ -868,20 +868,20 @@
     <string name="registration_status_registering">Реєстрація…</string>
     <string name="registration_status_still_trying">Зачекайте…</string>
     <string name="registration_status_not_receiving">Виклики не приймаються</string>
-    <string name="registration_status_no_data">"Реєстрацію облікового запису перервано через відсутність під'єднання до Інтернету"</string>
+    <string name="registration_status_no_data">"Реєстрацію облікового запису перервано через відсутність під\'єднання до Інтернету"</string>
     <string name="registration_status_no_wifi_data" />
-    <string name="registration_status_not_running">帐户注册失败。</string>
+    <string name="registration_status_not_running">Помилка реєстрації облікового запису.</string>
     <string name="registration_status_done">Виклики приймаються</string>
     <string name="registration_status_failed_try_later">Не вдалося зареєструвати обліковий запис (%s). Нову спробу буде здійснено пізніше.</string>
-    <string name="registration_status_invalid_credentials">"Не вдалося зареєструвати обліковий запис. Хибне ім'я користувача або пароль."</string>
-    <string name="registration_status_server_unreachable">"Не вдалося зареєструвати обліковий запис. Хибне ім'я серверу."</string>
+    <string name="registration_status_invalid_credentials">"Не вдалося зареєструвати обліковий запис. Хибне ім\'я користувача або пароль."</string>
+    <string name="registration_status_server_unreachable">"Не вдалося зареєструвати обліковий запис. Хибне ім\'я серверу."</string>
     <string name="third_party_account_summary">Цим обліковий записом зараз користується додаток %s</string>
     <string name="sip_edit_title">Налаштування SIP-обліковий запису</string>
     <string name="sip_edit_new_title">Налаштування SIP-обліковий запису</string>
     <string name="domain_address_title">Сервер</string>
-    <string name="username_title">"Ім'я користувача"</string>
+    <string name="username_title">"Ім\'я користувача"</string>
     <string name="password_title">Пароль</string>
-    <string name="display_name_title">"Ім'я, що відображується"</string>
+    <string name="display_name_title">"Ім\'я, що відображується"</string>
     <string name="proxy_address_title">Адреса проксі-серверу</string>
     <string name="port_title">Номер порту</string>
     <string name="transport_title">Протокол</string>
@@ -889,49 +889,49 @@
     <string name="set_primary_title">Основний обліковий запис</string>
     <string name="set_primary_summary">Використовувати цей обліковий запис по замовчанню для вихідних викликів</string>
     <string name="advanced_settings">Розширені налаштування</string>
-    <string name="auth_username_title">"Ім'я користувача"</string>
-    <string name="auth_username_summary">"Ім'я користувача для аутентифікації"</string>
+    <string name="auth_username_title">"Ім\'я користувача"</string>
+    <string name="auth_username_summary">"Ім\'я користувача для аутентифікації"</string>
     <string name="default_preference_summary">&lt;Не настроєно&gt;</string>
     <string name="display_name_summary">&lt;Збігається з іменем користувача&gt;</string>
-    <string name="optional_summary">"&lt;Не обов'язково&gt;"</string>
+    <string name="optional_summary">"&lt;Не обов\'язково&gt;"</string>
     <string name="advanced_settings_show">▷ Натисніть, щоб показати всі</string>
     <string name="advanced_settings_hide">▽ Натисніть, щоб приховати всі</string>
     <string name="empty_alert">%s не може бути порожньою</string>
     <string name="not_a_valid_port">Номер порту повинен бути від 1000 до 65534</string>
-    <string name="no_internet_available_title">"Відсутня під'єднання Інтернету"</string>
-    <string name="no_wifi_available_title">"Відсутня під'єднання Wi-Fi"</string>
-    <string name="no_internet_available">"Перед викликом через Інтернет перевірте під'єднання"</string>
-    <string name="no_wifi_available">"Для здійснення інтернет-викликів необхідне під'єднання до мережі Wi-Fi (використовуйте налаштування бездротової мережі)."</string>
+    <string name="no_internet_available_title">"Відсутня під\'єднання Інтернету"</string>
+    <string name="no_wifi_available_title">"Відсутня під\'єднання Wi-Fi"</string>
+    <string name="no_internet_available">"Перед викликом через Інтернет перевірте під\'єднання"</string>
+    <string name="no_wifi_available">"Для здійснення інтернет-викликів необхідне під\'єднання до мережі Wi-Fi (використовуйте налаштування бездротової мережі)."</string>
     <string name="no_voip">Інтернет-виклик не підтримується</string>
     <string name="sip_system_decide">Автоматично</string>
     <string name="sip_always_send_keepalive">Надсилати завжди</string>
     <string name="not_voice_capable">Голосові виклики не підтримуються</string>
     <string name="respond_via_sms_canned_response_1">Не можу говорити. Що трапилось?</string>
     <string name="respond_via_sms_canned_response_2">Я зараз Вам зателефоную.</string>
-    <string name="respond_via_sms_canned_response_3">"Я зв'яжуся з Вами пізніше."</string>
+    <string name="respond_via_sms_canned_response_3">"Я зв\'яжуся з Вами пізніше."</string>
     <string name="respond_via_sms_canned_response_4">Не можу говорити. Зателефонуйте пізніше.</string>
     <string name="respond_via_sms_custom_message">Своє повідомлення</string>
     <string name="respond_via_sms_setting_title">Швидкі відповіді</string>
     <string name="respond_via_sms_setting_title_2">Змінити швидкі відповіді</string>
     <string name="respond_via_sms_setting_summary" />
-    <string name="respond_via_sms_edittext_dialog_title">Швидкі відповіді</string>
+    <string name="respond_via_sms_edittext_dialog_title">Швидка відповідь</string>
     <string name="respond_via_sms_confirmation_format">Повідомлення надіслано %s.</string>
     <string name="description_image_button_one">один</string>
     <string name="description_image_button_two">два</string>
     <string name="description_image_button_three">три</string>
     <string name="description_image_button_four">чотири</string>
-    <string name="description_image_button_five">"п'ять"</string>
+    <string name="description_image_button_five">"п\'ять"</string>
     <string name="description_image_button_six">шість</string>
     <string name="description_image_button_seven">сім</string>
     <string name="description_image_button_eight">вісім</string>
-    <string name="description_image_button_nine">"дев'ять"</string>
+    <string name="description_image_button_nine">"дев\'ять"</string>
     <string name="description_image_button_star">зірочка</string>
     <string name="description_image_button_zero">нуль</string>
     <string name="description_image_button_pound">гратка</string>
     <string name="description_search_button">пошук</string>
     <string name="description_dial_button">набір</string>
     <string name="description_delete_button">повернення</string>
-    <string name="accessibility_speakerphone_enabled">"Гучний зв'язок увімкнено"</string>
+    <string name="accessibility_speakerphone_enabled">"Гучний зв\'язок увімкнено"</string>
     <string name="accessibility_call_muted">Звук вимкнено</string>
     <string name="description_target_answer">Відповідь</string>
     <string name="description_target_send_sms">Надіслати SMS</string>
@@ -1026,7 +1026,7 @@
     <string name="call_recording_prompt_miui">Буде запис виклику</string>
     <string name="call_record_button_label">Запис %s</string>
     <string name="call_record_unknown_error">Помилка запису</string>
-    <string name="call_record_notification_message_low_space_miui">"Запис зупинено: недостатньо пам'яті"</string>
+    <string name="call_record_notification_message_low_space_miui">"Запис зупинено: недостатньо пам\'яті"</string>
     <string name="call_record_notification_message_miui">Показати %s.</string>
     <string name="call_record_notification_message_sd_unmounted_miui">Запис зупинено: SD карта недоступна</string>
     <string name="call_record_notification_message_start_failed">Пристрій запису зайнятий іншим додатком</string>
@@ -1035,7 +1035,7 @@
     <string name="call_record_notification_title_miui">Запис завершено</string>
     <string name="call_record_sd_error_miui">Помилка доступу до SD картки</string>
     <string name="call_record_sd_space_low_miui">На SD картці недостатньо місця</string>
-    <string name="call_record_path_name_of_sdcard_miui">SD卡</string>
+    <string name="call_record_path_name_of_sdcard_miui">SD-карти</string>
     <string name="call_settings_category_miui">Виклики</string>
     <string name="call_settings_miui">Налаштування викликів</string>
     <string name="call_title_redialing_with_times_miui">Набрано %d раз</string>
@@ -1075,7 +1075,7 @@
     <string name="connect_disconnect_vibrate_none_miui">Не вібрувати</string>
     <string name="connect_disconnect_vibrate_normal_miui">Нормальна вібрація</string>
     <string name="connect_disconnect_vibrate_summary_miui" />
-    <string name="connect_disconnect_vibrate_title_miui">对方接通/挂断时振动</string>
+    <string name="connect_disconnect_vibrate_title_miui">Вібрація при прийомі/закінченні виклику</string>
     <string name="connect_disconnect_vibrate_weak_miui">Слабка вібрація</string>
     <string name="contacts_icon_label_miui">Контакти</string>
     <string name="count_of_persons_in_conference_miui">Людей в конференції: %d</string>
@@ -1088,7 +1088,7 @@
     <string name="current_areacode_sum_miui">Код вашої країни, або код країни, в якій ви знаходитесь (якщо ви в роумінгу). Наприклад: 010</string>
     <string name="current_areacode_sum_set_miui">Код вашої країни: %s</string>
     <string name="custom_location_location_no_item_miui">Натисніть Додати для власних атрибутів</string>
-    <string name="custom_location_location_hint_miui">"Ім'я"</string>
+    <string name="custom_location_location_hint_miui">"Ім\'я"</string>
     <string name="custom_location_number_hint_miui">Код країни або груповий номер</string>
     <string name="cw_title_miui">Очікування виклику</string>
     <string name="dial_related_setting_catory_miui">Набір</string>
@@ -1127,7 +1127,7 @@
     <string name="fdn_enable_puk2_requested_miui">PIN2 заблокований</string>
     <string name="fdn_miui">Фіксований набір</string>
     <string name="fdn_summary_miui">Дані параметри не працюють при ввімкненні фіксованого набору</string>
-    <string name="get_smsc_address_error_miui">"Помилка під'єднання до мережі"</string>
+    <string name="get_smsc_address_error_miui">"Помилка під\'єднання до мережі"</string>
     <string name="get_smsc_address_timeout_miui">Таймаут.</string>
     <string name="go_private_miui">Приватний режим</string>
     <string name="hac_mode_summary_miui">Увімкнути підсилення звуку</string>
@@ -1167,7 +1167,7 @@
     <string name="networks_title_miui">Мобільні оператори</string>
     <string name="new_pin2_hint_miui">Новий PIN2</string>
     <string name="new_pin_hint_miui">Новий PIN</string>
-    <string name="not_connected_miui">"Немає з'єднання"</string>
+    <string name="not_connected_miui">"Немає з\'єднання"</string>
     <string name="notification_ongoing_calling_format_miui">Виклик</string>
     <string name="number_format_error_message_miui">%s підтримує тільки літери</string>
     <string name="number_type_jituan_miui">Груповий номер</string>
@@ -1181,13 +1181,13 @@
     <string name="onscreen_audio_mode_handset_miui">Телефон</string>
     <string name="onscreen_audio_mode_headset_miui">Навушники</string>
     <string name="onscreen_audio_mode_miui">Відповісти використовуючи</string>
-    <string name="onscreen_audio_mode_speaker_miui">"Гучний зв'язок"</string>
+    <string name="onscreen_audio_mode_speaker_miui">"Гучний зв\'язок"</string>
     <string name="onscreen_call_record_miui">Запис</string>
     <string name="onscreen_dialer_miui">Клавіатура</string>
     <string name="onscreen_end_call_text_miui">Відмова</string>
     <string name="onscreen_hold_text_miui">Утримання</string>
     <string name="onscreen_manage_calls_text_miui">Керування викликами</string>
-    <string name="onscreen_merge_calls_text_miui">"Об'єднання викликів"</string>
+    <string name="onscreen_merge_calls_text_miui">"Об\'єднання викликів"</string>
     <string name="onscreen_mute_text_miui">Вимк. звук</string>
     <string name="onscreen_note_text_miui">Нотатки</string>
     <string name="onscreen_send_flash_text_miui">Флеш</string>
@@ -1197,7 +1197,7 @@
     <string name="onscreen_tools_on_miui">Інструменти</string>
     <string name="other_settings_miui">Інше</string>
     <string name="pin2_changed_miui">PIN2 змінено</string>
-    <string name="pin2_invalid_or_name_is_too_long">"Ви ввели хибний PIN або ім'я дуже довге"</string>
+    <string name="pin2_invalid_or_name_is_too_long">"Ви ввели хибний PIN або ім\'я дуже довге"</string>
     <string name="pin2_locked_message_miui">Хибний PIN2, повторіть заново</string>
     <string name="pin2_lock_warning_miui">"
 Функціонал, що відноситься до PIN2, буде заблокований при невдалій спробі!"</string>
@@ -1217,7 +1217,7 @@
     <string name="preferred_network_type_pref_entries_only_2g_miui">Тільки 2G (Енергозбереження)</string>
     <string name="preferred_network_type_pref_entries_only_3g_miui">Тільки 3G</string>
     <string name="preferred_network_type_pref_entries_global_miui">Глобально</string>
-    <string name="preferred_network_type_3g_only_warning_miui">"Ви не зможете під'єднатися до мережі 3G, якщо ваша SIM карта не підтримує 3G."</string>
+    <string name="preferred_network_type_3g_only_warning_miui">"Ви не зможете під\'єднатися до мережі 3G, якщо ваша SIM карта не підтримує 3G."</string>
     <string name="preferred_network_type_cdma_miui">CDMA</string>
     <string name="preferred_network_type_gsm_umts_miui">GSM/WCDMA</string>
     <string name="preferred_network_type_title_miui">Вибір типу мережі</string>
@@ -1229,11 +1229,11 @@
     <string name="reject_via_sms_title_miui">Налаштування відхилення з SMS</string>
     <string name="separate_from_conference_miui">Одиночний виклик</string>
     <string name="set_smsc_address_error_miui">Помилка установки SMS центра</string>
-    <string name="set_smsc_address_timeout_miui">"Таймаут під'єднання"</string>
+    <string name="set_smsc_address_timeout_miui">"Таймаут під\'єднання"</string>
     <string name="set_smsc_address_title_miui">Номер SMS центра</string>
     <string name="sim_contact_dropdown_menu_deselect_all_miui">Зняти виділення</string>
     <string name="sim_contact_dropdown_menu_select_all_miui">Виділити всі</string>
-    <string name="sim_contact_name_miui">"Ім'я"</string>
+    <string name="sim_contact_name_miui">"Ім\'я"</string>
     <string name="sim_contact_number_miui">Номер</string>
     <string name="sim_lock_off_miui">Необхідно ввести PIN</string>
     <string name="sim_lock_on_miui">Необхідно ввести PIN</string>
@@ -1281,8 +1281,8 @@
     <string name="cdma_three_way_calls_miui">Тристоронній виклик</string>
     <string name="cdma_conference_call_miui">Конференція</string>
     <string name="respond_via_sms_canned_response_1_miui">Не можу зараз говорити. Перетелефонуйте пізніше.</string>
-    <string name="respond_via_sms_canned_response_2_miui">"Я зв'яжусь через хвилину."</string>
-    <string name="respond_via_sms_canned_response_3_miui">"Зв'яжусь пізніше."</string>
+    <string name="respond_via_sms_canned_response_2_miui">"Я зв\'яжусь через хвилину."</string>
+    <string name="respond_via_sms_canned_response_3_miui">"Зв\'яжусь пізніше."</string>
     <string name="respond_via_sms_canned_response_4_miui">Не можу зараз говорити. Що сталося?</string>
     <string name="call_waiting_tone_title_miui">Тон очікування виклику</string>
     <string name="call_waiting_tone_stop_summary">" (натисніть клавішу зміни гучності, щоб зупинити відтворення)."</string>
@@ -1309,7 +1309,7 @@
     <string name="missed_call_notify_once_miui">Один раз</string>
     <string name="missed_call_notify_twice_miui">Два рази</string>
     <string name="missed_call_notify_thrice_miui">Три рази</string>
-    <string name="missed_call_notify_five_times_miui">"П'ять раз"</string>
+    <string name="missed_call_notify_five_times_miui">"П\'ять раз"</string>
     <string name="missed_call_notify_ten_times_miui">Десять раз</string>
     <string name="t9_indexing_method_title_miui">Налаштування пошуку T9</string>
     <string name="t9_indexing_rebuilding_message">Переіндексація T9…</string>
